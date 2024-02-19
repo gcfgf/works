@@ -1,0 +1,7 @@
+<div class="modal" id="myModal">
+  <div class="modal-content">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <p>Enter Name:</p>
+  <input type="text" [(ngModel)]="inputValue" >
+  <button (click)="submit()">Submit</button>
+</div>
